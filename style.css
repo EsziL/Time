@@ -40,3 +40,14 @@ body {
 	color: white;
 	letter-spacing: 3px;
 }
+
+@media (max-width: 767px) {
+	.time {
+		font-family: "Martian Mono", monospace;
+		text-rendering: optimizeLegibility;
+		position: absolute;
+		color: white;
+		font-size: 11vw;
+		letter-spacing: -2px;
+	}
+}

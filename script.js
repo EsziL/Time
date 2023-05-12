@@ -3,7 +3,7 @@ function updateTime() {
 	document.querySelector(".time").innerHTML = time;
   }
 function getMilitary() {
-	return document.querySelector(".military").state;
+	return !document.querySelector(".military").state;
 }
 function getTime(military) {
 	var date = new Date();
